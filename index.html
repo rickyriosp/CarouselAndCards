@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Pricing Page</title>
+    <title>Farm Fresh Pricing Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +14,32 @@
 
 <body>
     <div class="container-fluid">
-        
+        <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" current="true" aria-label="Farm Fresh Produce"></button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Free Delivery"></button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Shop with our app"></button>
+            </div>
+            <div class="carousel-inner"> 
+                <div class="carousel-item active">
+                    <img src="/img/FarmFresh.png" class="d-block w-100" alt="From our farm to your table">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/FreeDelivery.png" class="d-block w-100" alt="Free Delivery">
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/FreshApp.png" class="d-block w-100" alt="use our app to shop">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
     
     <!-- Bootstrap JS -->
